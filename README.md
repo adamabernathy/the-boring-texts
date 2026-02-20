@@ -41,19 +41,23 @@ src/
 
 ## Development
 
-Clone the repo and serve `src/` with any static server (ES modules require HTTP, not `file://`).
-
 ```sh
 git clone git@github.com:adamabernathy/all-rights-reserved.git
 cd all-rights-reserved
-python3 -m http.server 8000 -d src
+npm install
+npm run dev
 ```
 
-Then open `http://localhost:8000`.
+This builds the project into `dist/`, starts a dev server at `http://localhost:3000`, and watches `src/` for changes with automatic rebuilds.
+
+| Command         | Description                             |
+|-----------------|-----------------------------------------|
+| `npm run dev`   | Build + serve + watch                   |
+| `npm run build` | Production build (minified) to `dist/`  |
 
 ## Deployment
 
-The site is automatically deployed to GitHub Pages via GitHub Actions on every push to `main`. To enable this, go to your repository **Settings > Pages** and set the source to **GitHub Actions**.
+The site is automatically deployed to GitHub Pages via GitHub Actions on every push to `main`. The workflow runs `npm run build` to bundle and minify all assets, then deploys the `dist/` directory. To enable this, go to your repository **Settings > Pages** and set the source to **GitHub Actions**.
 
 ## Disclaimer
 
