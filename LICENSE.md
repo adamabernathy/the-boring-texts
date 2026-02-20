@@ -1,27 +1,21 @@
-# All Rights Reserved License
+# MIT License
 
-Copyright © 2026 Adam C. Abernathy, LLC. All rights reserved.
+Copyright (c) 2026 Adam C. Abernathy, LLC
 
-This repository and its contents, including but not limited to source code, documentation, designs, assets, and configuration files, are the exclusive property of Adam C. Abernathy, LLC.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-No part of this repository may be copied, modified, distributed, published, sublicensed, sold, reverse engineered, decompiled, disassembled, executed, tested, benchmarked, evaluated, or used in any form or by any means without the prior written permission of Adam C. Abernathy, LLC.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## No License Granted
-
-Permission is granted solely to access and view this repository for informational purposes. No license, express or implied, is granted to use, reproduce, execute, modify, distribute, create derivative works from, benchmark, evaluate, test, or otherwise exploit any portion of the materials contained in this repository.
-
-Public availability of this repository does not grant permission for internal use, commercial use, non-commercial use, research use, or evaluation use.
-
-## Disclaimer of Warranties
-
-THE SOFTWARE AND ALL RELATED MATERIALS ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND.
-
-## Limitation of Liability
-
-TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, Adam C. Abernathy, LLC SHALL NOT BE LIABLE FOR ANY DAMAGES ARISING OUT OF OR IN CONNECTION WITH THE USE OF OR INABILITY TO USE THE SOFTWARE OR ANY MATERIALS IN THIS REPOSITORY.
-
-## No Obligation
-
-Adam C. Abernathy, LLC has no obligation to provide maintenance, support, updates, or modifications.
-
-For licensing inquiries, contact: hello@adamabernathy.com
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

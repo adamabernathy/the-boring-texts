@@ -1,0 +1,14 @@
+{
+  "name": "the-boring-texts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generate LICENSE, README notice, Privacy Policy, and Accessibility Statement documents in your browser.",
+  "scripts": {
+    "dev": "node serve.js",
+    "build": "node build.js --production"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.27.3"
+  }
+}
