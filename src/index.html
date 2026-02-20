@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Generate an all-rights-reserved LICENSE.md and README notice in your browser.">
+  <title>All Rights Reserved License Generator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="page-header">
+    <h1>All Rights Reserved License Generator</h1>
+    <p class="description">
+      Generate a <code>LICENSE.md</code> and a README notice for your repository in seconds.
+    </p>
+  </header>
+
+  <main id="main-content">
+    <section class="card" aria-labelledby="form-heading">
+      <h2 id="form-heading">Company/Person Information</h2>
+      <form id="license-form" novalidate>
+        <div class="input-grid">
+          <div class="input-group">
+            <label for="company">Company Name</label>
+            <input id="company" name="company" autocomplete="organization" required>
+          </div>
+
+          <div class="input-group">
+            <label for="year">Year</label>
+            <input id="year" name="year" inputmode="numeric" autocomplete="off" pattern="[0-9]{4}" maxlength="4">
+          </div>
+
+          <div class="input-group full-width">
+            <label for="email">Contact Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button type="submit" class="btn-primary">Preview</button>
+          <button type="button" class="btn-secondary" id="download-license" disabled>Download LICENSE.md</button>
+          <button type="button" class="btn-secondary" id="download-readme" disabled>Download README Notice</button>
+        </div>
+        <p id="status" class="status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="card output-card" aria-labelledby="license-heading">
+      <h2 id="license-heading">LICENSE.md</h2>
+      <pre id="license-output" aria-live="polite"></pre>
+    </section>
+
+    <section class="card output-card" aria-labelledby="readme-heading">
+      <h2 id="readme-heading">README Notice</h2>
+      <pre id="readme-output" aria-live="polite"></pre>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <p class="made-with-love">Made with <span class="heart">&hearts;</span> in Salt Lake City</p>
+    <p class="disclaimer">
+      <strong>Disclaimer:</strong> This tool is provided for informational purposes only and does not constitute legal advice.
+      The generated license and notice text are generic templates and may not be suitable for your specific needs.
+      No attorney-client relationship is created by using this tool. You should consult a qualified attorney
+      for legal guidance tailored to your situation before relying on any generated content.
+      Use of this tool is at your own risk.
+    </p>
+    <p class="copyright">&copy; 2026 Adam C. Abernathy, LLC &mdash; All Rights Reserved</p>
+  </footer>
+
+  <noscript>
+    <p class="noscript-message">JavaScript is required to generate and download the files.</p>
+  </noscript>
+
+  <script src="./app.js" defer></script>
+
+</body>
+</html>
